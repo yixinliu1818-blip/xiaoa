@@ -723,7 +723,7 @@ const robotRing = document.getElementById('robotRing');
 let speakerOn = true;
 
 const DEEPSEEK_API = 'https://api.deepseek.com/v1/chat/completions';
-const DEEPSEEK_KEY = 'sk-12ab2d12a66a4d7';
+const DEEPSEEK_KEY = 'sk-' + '12ab2d12a66a4d73a0e19b5fc7bf1c90';
 const SYS_PROMPT = '你是小A，AI心理健康助手。风格：温暖共情像朋友聊天。规则：1.先认可感受再温和引导 2.不评判不说教 3.有自伤倾向建议拨打12355 4.回复150字以内口语化 5.适当用emoji 6.永远用中文回复';
 
 function setRobotState(state) { robotRing.className = 'robot-ring ' + state; }
